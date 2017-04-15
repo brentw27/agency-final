@@ -2,3 +2,23 @@
 @import "mixins.scss";
 @import "typography.scss";
 @import "agency.scss";
+
+header {
+  background-image: url(../img/header-hustle.jpg);
+  padding-bottom: 20em;
+}
+
+.navbar>.container .navbar-brand {
+  font-size: 3em;
+  margin-left: -5em;
+  color: #4D4D4D;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  background-color: #834;
+}
+
+.navbar-custom .nav li a {
+  font-size: 1.2em;
+  right: -9em;
+}
