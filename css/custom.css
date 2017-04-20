@@ -856,13 +856,91 @@ section#contact {
 #experience * {
   z-index: 2; }
 
-/* line 95, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+/* line 96, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+.experience-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto; }
+
+/* line 101, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+.experience-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center; }
+  /* line 110, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .experience-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em; }
+  /* line 114, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .experience-modal .modal-content p {
+    margin-bottom: 30px; }
+  /* line 117, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .experience-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px; }
+  /* line 123, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .experience-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 0; }
+  /* line 127, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .experience-modal .modal-content img {
+    margin-bottom: 30px; }
+
+/* line 131, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+.experience-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer; }
+  /* line 139, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .experience-modal .close-modal:hover {
+    opacity: 0.3; }
+  /* line 142, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .experience-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222222;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari and Chrome */
+    z-index: 1051; }
+    /* line 153, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+    .experience-modal .close-modal .lr .rl {
+      height: 75px;
+      width: 1px;
+      background-color: #222222;
+      transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      /* IE 9 */
+      -webkit-transform: rotate(90deg);
+      /* Safari and Chrome */
+      z-index: 1052; }
+
+/* line 166, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+.experience-modal .modal-backdrop {
+  opacity: 0;
+  display: none; }
+
+/* line 172, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
 .video-bkg {
   height: 80vh;
   position: relative;
   overflow: hidden;
   padding: 3em; }
-  /* line 100, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  /* line 177, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
   .video-bkg video {
     position: absolute;
     top: 60%;
@@ -874,21 +952,21 @@ section#contact {
     z-index: 0;
     transform: translateX(-50%) translateY(-50%);
     background-size: cover; }
-  /* line 112, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  /* line 189, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
   .video-bkg > .container {
     z-index: 100; }
 
-/* line 117, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+/* line 194, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
 .navbar > .container .navbar-brand {
   font-size: 3em;
   color: #E8E8E8; }
 
-/* line 122, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+/* line 199, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
 .navbar-custom .navbar-nav > .active > a {
   background-color: #10546F;
   border: 1px solid white; }
 
-/* line 127, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+/* line 204, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
 .navbar-custom .nav li a {
   font-size: 1.2em; }
 
