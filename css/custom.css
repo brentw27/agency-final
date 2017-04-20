@@ -771,21 +771,125 @@ body {
 /* line 6, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
 header {
   background-image: url(../img/header-hustle.jpg);
-  padding-bottom: 20em; }
+  padding-bottom: 25em; }
 
 /* line 11, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+h2 {
+  color: #212F3D !important; }
+
+/* line 15, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+body {
+  background-color: #F8FDFF; }
+
+/* line 19, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+.modal-content li {
+  text-align: left; }
+
+/* line 23, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+section#contact {
+  background-color: #292929;
+  background-image: none; }
+
+/* line 28, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+.bg-light-gray {
+  background-color: #5F5F5F; }
+
+/* line 33, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+#experience .experience-item {
+  margin: 0 0 15px;
+  right: 0; }
+  /* line 36, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  #experience .experience-item .experience-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto; }
+    /* line 41, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+    #experience .experience-item .experience-link .experience-hover {
+      background: rgba(254, 209, 54, 0.1);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s; }
+      /* line 50, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+      #experience .experience-item .experience-link .experience-hover:hover {
+        opacity: 1; }
+      /* line 53, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+      #experience .experience-item .experience-link .experience-hover .experience-hover-content {
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        font-size: 20px;
+        text-align: center;
+        top: 50%;
+        margin-top: -12px;
+        color: white; }
+        /* line 62, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+        #experience .experience-item .experience-link .experience-hover .experience-hover-content i {
+          margin-top: -12px; }
+        /* line 65, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+        #experience .experience-item .experience-link .experience-hover .experience-hover-content h3,
+        #experience .experience-item .experience-link .experience-hover .experience-hover-content h4 {
+          margin: 0; }
+  /* line 72, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  #experience .experience-item .experience-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 25px; }
+    /* line 78, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+    #experience .experience-item .experience-caption h4 {
+      text-transform: none;
+      margin: 0; }
+    /* line 82, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+    #experience .experience-item .experience-caption p {
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: italic;
+      font-size: 16px;
+      margin: 0; }
+
+/* line 90, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+#experience * {
+  z-index: 2; }
+
+/* line 95, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+.video-bkg {
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  padding: 3em; }
+  /* line 100, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .video-bkg video {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; }
+  /* line 112, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+  .video-bkg > .container {
+    z-index: 100; }
+
+/* line 117, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
 .navbar > .container .navbar-brand {
   font-size: 3em;
-  margin-left: -5em;
-  color: #4D4D4D; }
+  color: #E8E8E8; }
 
-/* line 17, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+/* line 122, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
 .navbar-custom .navbar-nav > .active > a {
-  background-color: #834; }
+  background-color: #10546F;
+  border: 1px solid white; }
 
-/* line 21, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
+/* line 127, /Users/brentwarnhoff/Documents/Web Dev Projects/agency-final/css/custom.scss */
 .navbar-custom .nav li a {
-  font-size: 1.2em;
-  right: -9em; }
+  font-size: 1.2em; }
 
 /*# sourceMappingURL=custom.css.map */
